@@ -7,8 +7,8 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: linear-gradient(135deg, #0b1026, #17113b, #0f172a);
-  color: #f8fafc;
+  background: linear-gradient(135deg, #fff7ed, #ffe4e6, #fef3c7);
+  color: #292524;
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -25,51 +25,52 @@ body {
 
 h1 {
   text-align: center;
-  color: #a78bfa;
-  text-shadow: 0 0 18px rgba(167, 139, 250, 0.35);
+  color: #c2410c;
+  font-size: 2.2rem;
+  text-shadow: 0 2px 8px rgba(194, 65, 12, 0.15);
 }
 
 label, h2 {
   display: block;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #c4b5fd;
+  color: #9a3412;
 }
 
 textarea {
   width: 100%;
   height: 120px;
   padding: 0.75rem;
-  border-radius: 10px;
-  border: 1px solid #4c1d95;
-  background-color: #15132d;
-  color: #f8fafc;
+  border-radius: 12px;
+  border: 2px solid #fed7aa;
+  background-color: #ffffff;
+  color: #292524;
   font-family: monospace;
   font-size: 1rem;
   resize: vertical;
   outline: none;
-  box-shadow: 0 0 15px rgba(124, 58, 237, 0.12);
+  box-shadow: 0 5px 20px rgba(154, 52, 18, 0.08);
 }
 
 textarea:focus {
-  border-color: #8b5cf6;
-  box-shadow: 0 0 18px rgba(139, 92, 246, 0.25);
+  border-color: #fb923c;
+  box-shadow: 0 0 18px rgba(251, 146, 60, 0.25);
 }
 
 #preview {
   min-height: 100px;
   padding: 1rem;
-  border-radius: 10px;
-  border: 1px solid #4c1d95;
-  background-color: #15132d;
-  color: #f8fafc;
-  box-shadow: 0 0 15px rgba(124, 58, 237, 0.12);
+  border-radius: 12px;
+  border: 2px solid #fed7aa;
+  background-color: #ffffff;
+  color: #292524;
+  box-shadow: 0 5px 20px rgba(154, 52, 18, 0.08);
 }
 
 #preview blockquote {
-  border-left: 4px solid #8b5cf6;
+  border-left: 4px solid #f97316;
   padding-left: 1rem;
-  color: #cbd5e1;
+  color: #57534e;
 }
 
 #preview img {
